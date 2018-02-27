@@ -34,7 +34,7 @@ function appendKitten(name){
 
 function removeFirstKitten(name){
   var newKittens = [...kittens]
-  newKittens.slice(1)
+  newKittens.slice(0,1)
   return newKittens
 }
 
