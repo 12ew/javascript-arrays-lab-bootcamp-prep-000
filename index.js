@@ -32,9 +32,9 @@ function appendKitten(name){
   return newKittens
 }
 
-function appendKitten(name){
+function removeFirstKitten(name){
   var newKittens = [...kittens]
-  newKittens.push(name)
+  newKittens.slice(1)
   return newKittens
 }
 
