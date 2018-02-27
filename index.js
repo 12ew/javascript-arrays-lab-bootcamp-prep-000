@@ -43,3 +43,4 @@ function removeLastKitten(name){
   newKittens.pop(name)
   return newKittens
 }
+
