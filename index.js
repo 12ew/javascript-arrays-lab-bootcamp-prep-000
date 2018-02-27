@@ -32,4 +32,10 @@ function appendKitten(name){
   return newKittens
 }
 
+function appendKitten(name){
+  var newKittens = [...kittens]
+  newKittens.push(name)
+  return newKittens
+}
+
 
